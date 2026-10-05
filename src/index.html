@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Sistemas - Universidad de la Amazonia</title>
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/image.png" alt="Logo Móvil" class="logo-movil">
+            <img src="imagenes/logouniamazonia2.png" alt="Logo Escritorio" class="logo-tablet">
+            <img src="imagenes/Gemini_Generated_Image_1ftjun1ftjun1ftj-removebg-preview.png" alt="Logo Escritorio"
+                class="logo-pc">
+        </div>
+
+        <div class="header-derecha">
+            <div class="busqueda">
+                <input type="text" placeholder="Buscar...">
+                <button class="btn-lupa" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="contenedor-menu-global">
+                <input type="checkbox" id="check-menu" class="check-menu-oculto">
+
+                <label for="check-menu" class="btn-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <nav class="menu-lateral">
+                    <div class="menu-header">
+                        <h3>Menú Institucional</h3>
+                        <label for="check-menu" class="btn-cerrar-menu"><i class="fa-solid fa-xmark"></i></label>
+                    </div>
+                    <div class="menu-contenido">
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/" class="enlace-directo">INICIO</a>
+                        <details class="item-menu">
+                            <summary>LA UNIVERSIDAD <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <details class="item-menu sub-nivel">
+                                    <summary>Presentacion <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/nit.html">NIT</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/mision-y-vision.html">Mision
+                                            y Vision</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/objetivos-y-funciones.html">Objetivos
+                                            y Funciones</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/resena-historica.html">Reseña
+                                            Historica</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/localizacion-fisica.html">Localizacion
+                                            Fisica Maps</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/localizacion-fisica-de-las-sedes.html">Localizacion
+                                            Fisica</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/nuestros-simbolos/logo-simbolo.html">Logo,
+                                            Simbolo, Himno</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/horarios-de-atencion.html">Horarios
+                                            de atencion</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/presentacion/datos-de-contacto-sedes.html">Datos
+                                            de Contacto - Sedes</a>
+                                    </div>
+                                </details>
+                                <a
+                                    href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/organigrama.html">Organigrama</a>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Normativa <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/marco-juridico.html">Marco
+                                            juridico</a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Superior/Acuerdos/2024/Acuerdo%20032%20-%20Proyecto%20Educativo%20Institucionall%20.pdf"></a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/acuerdos.html"></a>
+                                        <a
+                                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/valores-de-matriculas-y-derechos-pecuniarios-y-complementarios.html"></a>
+                                        <a
+                                            href="https://drive.google.com/drive/u/0/folders/1-s_xYdeAbW2a1cvdLBFCL7UI84inRiBl"></a>
+                                    </div>
+                                </details>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Órganos de Dirección <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Consejo Superior Universitario</a>
+                                        <a href="#">Rectoría</a>
+                                        <a href="#">Consejo Académico</a>
+                                        <a href="#">Secretaría General</a>
+                                        <a href="#">Oficinas</a>
+                                    </div>
+                                </details>
+                                <a href="#">Consejo Electoral</a>
+                                <a href="#">Perfil de Funcionarios</a>
+                                <a href="#">Directorio de Funcionarios</a>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Dependencias <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Vicerrectorías</a>
+                                        <a href="#">Facultades</a>
+                                        <a href="#">Departamentos</a>
+                                        <a href="#">Otras Dependencias</a>
+                                    </div>
+                                </details>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary class="destacado">PROGRAMAS <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <details class="item-menu sub-nivel">
+                                    <summary>Pregrado <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Ciencias Agropecuarias</a>
+                                        <a href="#">Ciencias Básicas</a>
+                                        <a href="#">Contables, Económicas y Administrativas</a>
+                                        <a href="#">Educación</a>
+                                        <a href="#">Derecho</a>
+                                        <a href="#">Ingeniería</a>
+                                        <a href="#">Ciencias de la Salud</a>
+                                    </div>
+                                </details>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Posgrado <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Ciencias Agropecuarias</a>
+                                        <a href="#">Ciencias Básicas</a>
+                                        <a href="#">Contables, Económicas y Administrativas</a>
+                                        <a href="#">Educación</a>
+                                        <a href="#">Derecho</a>
+                                        <a href="#">Ingeniería</a>
+                                        <a href="#">Economía Crítica</a>
+                                    </div>
+                                </details>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Educación a Distancia <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Tecnológicos</a>
+                                        <a href="#">Profesionales</a>
+                                    </div>
+                                </details>
+                                <a href="#">Educación Continuada</a>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>GESTIÓN <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <details class="item-menu sub-nivel">
+                                    <summary>Control y Rendición de Cuentas <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Entes de Control</a>
+                                        <a href="#">Informes de Gestión</a>
+                                        <a href="#">Planes de Mejoramiento</a>
+                                        <a href="#">Informe de Rendición de cuentas</a>
+                                    </div>
+                                </details>
+                                <a href="#">Contratación</a>
+                                <a href="#">Políticas, Planes, Programas y Proyectos Institucionales</a>
+                                <a href="#">Plan de Desarrollo Institucional</a>
+                                <a href="#">Defensa Judicial</a>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Información Financiera <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Ejecuciones Presupuestales</a>
+                                        <a href="#">Presupuesto Aprobado en Ejercicio e Histórico</a>
+                                        <a href="#">Certificaciones</a>
+                                        <a href="#">Estados Financieros</a>
+                                    </div>
+                                </details>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>SERVICIOS <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <details class="item-menu sub-nivel">
+                                    <summary>Atención al Ciudadano <i class="fa-solid fa-plus"></i></summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Peticiones, Quejas y Reclamos</a>
+                                        <a href="#">Glosario</a>
+                                    </div>
+                                </details>
+                                <a href="#">Foros de Discusión</a>
+                                <a href="#">Radio en Línea</a>
+                                <a href="#">Trámites Uniamazonia</a>
+                                <a href="#">Noticias y Eventos</a>
+                                <a href="#">Datos Abiertos</a>
+                                <a href="#">Portafolios Sector Externo</a>
+                                <details class="item-menu sub-nivel">
+                                    <summary>Preguntas y Respuestas Frecuentes <i class="fa-solid fa-plus"></i>
+                                    </summary>
+                                    <div class="sub-menu">
+                                        <a href="#">Relacionadas con Campus N.G.</a>
+                                        <a href="#">De Tipo Académico</a>
+                                        <a href="#">Relacionadas con Procesos de Admisión</a>
+                                    </div>
+                                </details>
+                                <a href="#">Verificación de Certificados</a>
+                                <a href="#">Sistema General de Regalías</a>
+                                <a href="#">Notificaciones por Aviso</a>
+                                <a href="#">Verificación de Carné</a>
+                                <a href="#">Consultorio Jurídico y Centro de Conciliación Virtual</a>
+                                <a href="#">Un Mundo de Oportunidades</a>
+                                <a href="#">Encuestas</a>
+                                <a href="#">Acciones contra el COVID-19</a>
+                                <a href="#">Portafolio de Servicios FCA</a>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>CONVOCATORIAS <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <a href="#">Ofertas de Empleo</a>
+                                <a href="#">Invitaciones a Contratar</a>
+                                <a href="#">Elecciones</a>
+                                <a href="#">Proveedores</a>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>INVESTIGACIÓN <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <a href="#">Vicerrectoría de Investigación e Innovación</a>
+                                <a href="#">Grupos de Investigación</a>
+                                <a href="#">Nuestras Revistas</a>
+                                <a href="#">Convocatorias</a>
+                                <a href="#">Laboratorios e Infraestructura</a>
+                                <a href="#">Editorial</a>
+                                <a href="#">SIGEPI</a>
+                                <a href="#">Convocatorias Minciencias</a>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>SEDES <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <a href="#">Sede Guaviare</a>
+                                <a href="#">Sede Putumayo</a>
+                                <a href="#">Sede Leticia</a>
+                            </div>
+                        </details>
+
+                        <details class="item-menu">
+                            <summary>TRANSPARENCIA <i class="fa-solid fa-chevron-down"></i></summary>
+                            <div class="sub-menu">
+                                <a href="#">1. Información de la Entidad</a>
+                                <a href="#">2. Normativa</a>
+                                <a href="#">3. Contratación</a>
+                                <a href="#">4. Planeación, Presupuesto e Informes</a>
+                                <a href="#">5. Trámites</a>
+                                <a href="#">6. Participa</a>
+                                <a href="#">7. Datos Abiertos</a>
+                                <a href="#">8. Grupos de Interés</a>
+                                <a href="#">9. Obligación de reporte de información</a>
+                            </div>
+                        </details>
+                        <a href="#" class="enlace-directo">ATENCIÓN AL CIUDADANO</a>
+                        <a href="#" class="enlace-directo">PARTICIPA</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <nav> </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-contenido">
+                <h2>Facultad de Ingeniería</h2>
+                <p>Ingeniería de Sistemas</p>
+            </div>
+        </section>
+        <section class="contenedor-proposito">
+            <div class="tarjeta-proposito">
+                <h3>Propósito de Formación</h3>
+                <p>
+                    El Programa Ingeniería de Sistemas de la Universidad de la Amazonia tiene como principal propósito
+                    desarrollar procesos de formación integral mediante un currículo que aborda las ciencias básicas, la
+                    ingeniería y los campos tecnológico, investigativo y socio-humanista. Esto permite al egresado
+                    interactuar con su entorno e incidir positivamente en él mediante la creación e innovación de
+                    soluciones computacionales basadas en las TIC, contribuyendo al progreso económico, social y
+                    tecnológico de la región Amazónica y del país.
+                </p>
+            </div>
+        </section>
+        <section class="contenedor-info">
+            <h3 class="titulo-seccion">Detalles del Programa</h3>
+            <div class="grid-informacion">
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <div class="texto-info">
+                        <h4>Título que Otorga</h4>
+                        <p>Ingeniero de Sistemas</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <div class="texto-info">
+                        <h4>Modalidad y Jornada</h4>
+                        <p>Presencial - Diurna</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <div class="texto-info">
+                        <h4>Duración</h4>
+                        <p>10 semestres</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-book"></i>
+                    <div class="texto-info">
+                        <h4>Créditos Académicos</h4>
+                        <p>178</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <div class="texto-info">
+                        <h4>Código SNIES</h4>
+                        <p>52384</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-info">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <div class="texto-info">
+                        <h4>Lugar de desarrollo</h4>
+                        <p>Florencia - Caquetá</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contenedor-mision-vision">
+            <div class="tarjeta-mv">
+                <div class="icono-mv"><i class="fa-solid fa-flag"></i></div>
+                <h3>Misión</h3>
+                <p>
+                    El programa académico Ingeniería de Sistemas de la Universidad de la Amazonia, asume como encargo
+                    social la formación de profesionales íntegros, con capacidad para crear, innovar, formular y
+                    solucionar problemáticas organizacionales y productivas, apoyados en el desarrollo de sistemas de
+                    información soportados en las diferentes tecnologías informáticas, con el propósito de contribuir al
+                    desarrollo social, económico y tecnológico de la región amazónica y del país.
+                </p>
+            </div>
+
+            <div class="tarjeta-mv">
+                <div class="icono-mv"><i class="fa-solid fa-eye"></i></div>
+                <h3>Visión</h3>
+                <p>
+                    Ingeniería de Sistemas será un programa académico en permanente acreditación académica y social,
+                    líder en la formación integral de profesionales, competentes en el campo académico, investigativo y
+                    humanístico; comprometidos con el desarrollo tecnológico de la región amazónica y del país apoyados
+                    en tecnologías de información.
+                </p>
+            </div>
+        </section>
+        <section class="contenedor-plan-estudios">
+            <h3 class="titulo-seccion">Plan de Estudios</h3>
+
+            <div class="scroll-semestres">
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre I</div>
+                    <ul class="lista-materias">
+                        <li>Comunicación</li>
+                        <li>Deporte y Cultura</li>
+                        <li>Matemáticas I</li>
+                        <li>Física I</li>
+                        <li>Biología General</li>
+                        <li>Introducción a la Ingeniería</li>
+                        <li>Lógica y Algoritmos I</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre II</div>
+                    <ul class="lista-materias">
+                        <li>Constitución y Democracia</li>
+                        <li>Matemáticas II</li>
+                        <li>Física II</li>
+                        <li>Química I</li>
+                        <li>Lógica y Algoritmos II</li>
+                        <li>Teoría General de Sistemas</li>
+                    </ul>
+                    <div class="total-creditos">Total: 17 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre III</div>
+                    <ul class="lista-materias">
+                        <li>Idioma Extranjero I</li>
+                        <li>Álgebra Lineal</li>
+                        <li>Matemáticas Discreta</li>
+                        <li>Análisis de Sistemas</li>
+                        <li>Estructuras de Datos I</li>
+                    </ul>
+                    <div class="total-creditos">Total: 17 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre IV</div>
+                    <ul class="lista-materias">
+                        <li>Ecuaciones Diferenciales</li>
+                        <li>Estadística para Ingeniería</li>
+                        <li>Ingeniería de Software I</li>
+                        <li>Sistemas Operativos</li>
+                        <li>Estructuras de Datos II</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre V</div>
+                    <ul class="lista-materias">
+                        <li>Idioma Extranjero II</li>
+                        <li>Métodos Numéricos</li>
+                        <li>Ingeniería de Software II</li>
+                        <li>Programación Web</li>
+                        <li>Diseño de Base de Datos</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre VI</div>
+                    <ul class="lista-materias">
+                        <li>Filosofía e Historia de la Ciencia</li>
+                        <li>Modelos Determinísticos</li>
+                        <li>Ingeniería de Software III</li>
+                        <li>Programación Móvil</li>
+                        <li>Redes Informáticas I</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre VII</div>
+                    <ul class="lista-materias">
+                        <li>Metodología de la Investigación I</li>
+                        <li>Proyectos Software</li>
+                        <li>Inteligencia Computacional I</li>
+                        <li>Redes Informáticas II</li>
+                        <li>Administración de Base de Datos</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre VIII</div>
+                    <ul class="lista-materias">
+                        <li>Desarrollo Humano</li>
+                        <li>Metodología de la Investigación II</li>
+                        <li>Planeación Estratégica de Sist. de Información</li>
+                        <li>Inteligencia Computacional II</li>
+                        <li>Taller de Emprendimiento e Innovación</li>
+                        <li>Ética</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre IX</div>
+                    <ul class="lista-materias">
+                        <li>Universidad Región y Medio Ambiente</li>
+                        <li>Gestión Tecnológica</li>
+                        <li>Taller de Escritura Científica</li>
+                        <li>Electiva I</li>
+                        <li>Electiva II</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+                <div class="tarjeta-semestre">
+                    <div class="semestre-header">Semestre X</div>
+                    <ul class="lista-materias">
+                        <li>Electiva III</li>
+                        <li>Electiva IV</li>
+                        <li>Opción de Grado</li>
+                    </ul>
+                    <div class="total-creditos">Total: 18 Créditos</div>
+                </div>
+
+            </div>
+
+            <div class="contenedor-boton-descarga">
+                <a href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Academico/Acuerdos/2020/Acuerdo%2044%20Plan%20de%20Estudios%20de%20Ingenieria%20de%20Sistemas.pdf"
+                    target="_blank" class="btn-descarga">
+                    <i class="fa-solid fa-file-pdf"></i> Descargar Plan de Estudios
+                </a>
+            </div>
+        </section>
+        <section class="contenedor-acordeones">
+            <h3 class="titulo-seccion">Más Información del Programa</h3>
+
+            <details class="acordeon">
+                <summary>
+                    <i class="fa-solid fa-user-tie"></i> Perfil de egreso <i
+                        class="fa-solid fa-chevron-down flecha"></i>
+                </summary>
+                <div class="contenido-acordeon">
+                    <p>El Ingeniero de Sistemas de la Universidad de la Amazonia es un profesional que comprende las
+                        dinámicas del entorno, reconociendo las implicaciones y las responsabilidades legales,
+                        profesionales, éticas, sociales, económicas y culturales del ejercicio de su profesión. Así
+                        mismo, reconoce que la evolución constante de su disciplina y las condiciones cambiantes del
+                        entorno hacen necesario implementar estrategias autónomas de aprendizaje continuo, orientados a
+                        su perfeccionamiento profesional.</p>
+                </div>
+            </details>
+
+            <details class="acordeon">
+                <summary>
+                    <i class="fa-solid fa-list-check"></i> Requisitos <i class="fa-solid fa-chevron-down flecha"></i>
+                </summary>
+                <div class="contenido-acordeon">
+                    <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/departamentos/direccion-de-admision-registro-y-control-academico/228-aspirantes.html"
+                        target="_blank" class="link-verde">
+                        <i class="fa-solid fa-link"></i> Ver requisitos Clic aquí.
+                    </a>
+                </div>
+            </details>
+
+            <details class="acordeon">
+                <summary>
+                    <i class="fa-solid fa-coins"></i> Inversión <i class="fa-solid fa-chevron-down flecha"></i>
+                </summary>
+                <div class="contenido-acordeon">
+                    <ul>
+                        <li><strong>Valor Inscripción:</strong> 8.0% del S.M.M.L.V. <a
+                                href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Superior/Acuerdos/2012/Acuerdo%20002%20-%20Por%20el%20cual%20se%20fijan%20los%20derechos%20pecuniarios.pdf">Acuerdo
+                                02 del 26 de enero de 2012.</a></li>
+                        <li><strong>Valor derecho de matrícula:</strong> <a
+                                href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Superior/Acuerdos/2012/Acuerdo%20001%20-%20Por%20el%20cual%20se%20establece%20la%20tabla%20de%20matricula%20para%20estudiantes%20de%20pregrado%20presencial.pdf">Acuerdo
+                                01 del 26 de enero de 2012.</a></li>
+                    </ul>
+                </div>
+            </details>
+            <details class="acordeon">
+                <summary>
+                    <i class="fa-solid fa-folder-open"></i> Documentos de Interés <i
+                        class="fa-solid fa-chevron-down flecha"></i>
+                </summary>
+                <div class="contenido-acordeon">
+                    <div class="lista-enlaces">
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Superior/Acuerdos/2004/Acuerdo%20016%20-%20Por%20el%20cual%20se%20autoriza%20la%20creacion%20del%20programa%20academico%20de%20Ingenieria%20de%20Sistemas.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Acuerdo de Creación
+                            (Acuerdo 16 del 26 de agosto de 2004)</a>
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Programas%20Academicos/Ingenieria%20de%20Sistemas/Resolucion%201562%20-%20Registro%20Calificado.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Resolución Registro
+                            Calificado (001562 del 16 de febrero de 2022)</a>
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Academico/Acuerdos/2002/Acuerdo%2019%20-%20Por%20el%20cual%20se%20adopta%20la%20linea%20de%20investigacion%20Sistemas%20de%20Formacion%20Geografica%20para%20la%20facultad%20de%20ingenieria.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Acuerdo No. 019 de
+                            2002 - Línea SIG.</a>
+                        <a href="https://drive.google.com/drive/folders/1OjF8Tb43WolUrTwbHwLWE9UDTKP45xVQ"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Contenidos
+                            programáticos pensum 2020.</a>
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Programas%20Academicos/Ingenieria%20de%20Sistemas/Formatos%20de%20Opcion%20de%20grado/Opciones%20de%20grado.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Opciones de
+                            Grado.</a>
+                        <a href="https://drive.google.com/drive/folders/14EBlcWxRo1mfWvUKeTcIXoWUWORG0KUJ"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Formatos de Opción
+                            de Grado.</a>
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Sistema%20Integrado%20de%20Gestion%20de%20Calidad/6.%20Procesos/2.%20Misional/Docencia/Procedimientos/7.%20Aprobacion%20de%20opcion%20de%20grado/FO-M-DC-07-03.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Formato Notificación
+                            Opción de Grado.</a>
+                        <a href="https://drive.google.com/drive/folders/1IuMu73ZW26iHtAeWZHUp9UXN2dHLfxus"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Protocolo de
+                            Sustentación y Socialización.</a>
+                        <a href="https://www.uniamazonia.edu.co/documentos/docs/Programas%20Academicos/Ingenieria%20de%20Sistemas/BROCHURE%20INGENIERIA%20DE%20SISTEMAS.pdf"
+                            target="_blank" class="link-verde"><i class="fa-solid fa-file-pdf"></i> Brochure Ingeniería
+                            de Sistemas.</a>
+                    </div>
+                </div>
+            </details>
+            <details class="acordeon">
+                <summary>
+                    <i class="fa-solid fa-address-book"></i> Contacto <i class="fa-solid fa-chevron-down flecha"></i>
+                </summary>
+                <div class="contenido-acordeon">
+                    <p><strong>Coordinadora de Programa:</strong> Paula Andrea Chica Murcia.</p>
+                    <p><strong>Teléfono:</strong> 320 454 1936.</p>
+                    <p><strong>Correo electrónico:</strong> <a href="mailto:pisistemas@uniamazonia.edu.co"
+                            class="link-verde">pisistemas@uniamazonia.edu.co</a></p>
+                    <p><strong>Ubicación:</strong> Florencia - Caquetá, Campus Florencia, barrio El Porvenir, bloque
+                        administrativo, primer piso.</p>
+                </div>
+            </details>
+        </section>
+    </main>
+    <aside class="barra">
+        <a href="https://outlook.office365.com/mail/inbox?realm=udla.edu.co" target="_blank" class="icono-btn"
+            data-tooltip="Correo Institucional">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://chaira.uniamazonia.edu.co/Chaira/Logon.aspx" target="_blank" class="icono-btn"
+            data-tooltip="Plataforma Chairá">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+        <a href="https://aulaextendida.uniamazonia.edu.co/aulaextendida/" target="_blank" class="icono-btn"
+            data-tooltip="Aula Extendida">
+            <i class="fa-solid fa-laptop-code"></i>
+        </a>
+        <a href="https://divi.udla.edu.co/" target="_blank" class="icono-btn" data-tooltip="Portal DIVI">
+            <i class="fa-solid fa-globe"></i>
+        </a>
+    </aside>
+
+    <footer>
+        <div class="footer-logos">
+            <img src="imagenes/logo_gov.png" alt="Logo GOV.CO" class="logo-gov">
+            <img src="imagenes/logouniamazonia.png" alt="Universidad de la Amazonia y República de Colombia"
+                class="logo-uni-rep">
+        </div>
+
+        <div class="footer-info-principal">
+            <div class="footer-bloque">
+                <h4 class="titulo-verde-footer">UNIVERSIDAD DE LA AMAZONIA</h4>
+                <p>NIT: 891190346-1</p>
+                <br>
+                <h5 class="subtitulo-verde">ENLACES DE INTERÉS</h5>
+                <ul class="lista-simple">
+                    <li><a href="#">Plan de Desarrollo Institucional</a></li>
+                    <li><a href="#">Ofertas de Salas y Vehículos</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Política de Derechos de Autor</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Mapa del sitio</a></li>
+                </ul>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/uniamazonia.edu.co"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/uniamazonia/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/uniamazonia"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/c/uamazonia"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@uniamazonia"><i class="fa-brands fa-tiktok"></i></a>
+                    <span>@uniamazonia</span>
+                </div>
+            </div>
+
+            <div class="footer-bloque">
+                <h5 class="subtitulo-verde">CONTÁCTANOS</h5>
+                <p>Sede Porvenir Calle 17 Diagonal 17 con Carrera 3F - Barrio Porvenir - <a href="#">Florencia, Caquetá,
+                        Colombia, Suramérica</a></p>
+                <p>Atención Público: Lunes a Viernes de 7:30 a.m. a 11:30 m. - 1:30 p.m. a 5:30 p.m.</p>
+                <p>Contacto: <a
+                        href="mailto:atencionalciudadano@uniamazonia.edu.co">atencionalciudadano@uniamazonia.edu.co</a>
+                </p>
+                <p>PQRS-D: <a href="mailto:quejasyreclamos@uniamazonia.edu.co">quejasyreclamos@uniamazonia.edu.co</a>
+                </p>
+                <p>Notificaciones judiciales: <a
+                        href="mailto:njudiciales@uniamazonia.edu.co">njudiciales@uniamazonia.edu.co</a></p>
+            </div>
+
+            <div class="footer-bloque">
+                <h5 class="subtitulo-verde">LOCALIZACIÓN FÍSICA</h5>
+                <img src="imagenes/mapauni.png" alt="Mapa de ubicación Universidad de la Amazonia" class="img-mapa">
+            </div>
+        </div>
+
+        <div class="footer-directorio">
+            <div class="directorio-columna">
+                <h5 class="titulo-rojo-footer">Atención al ciudadano</h5>
+                <ul class="lista-enlaces-verdes">
+                    <li><a href="https://chaira.uniamazonia.edu.co/PQRSD/View/Public/PQRS/MenuPublicoPQRSD.aspx">»
+                            PQRS-D</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/Inicio/index.php/servicios-de-informacion/atencion-al-ciudadano/glosario.html">»
+                            Glosario</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/Inicio/index.php/servicios-de-informacion/preguntas-y-respuestas-frecuentes/relacionadas-con-campus-n-g.html">»
+                            Preguntas Frecuentes</a></li>
+                    <li><a
+                            href="https://www.funcionpublica.gov.co/dafpIndexerBT/tramite/index?find=FindNext&query=tramites+universidad+de+la+amazonia&filtroEntidad=0370&filtroSector=&filtroDepartamento=&filtroMunicipio=18001&bloquearFiltroEntidad=&bloquearFiltroSector=&bloquearFiltroDepartamento=&bloquearFiltroMunicipio=">»
+                            Tramites Uniamazonia</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/inicio/index.php/politica-de-privacidad.html">» Política
+                            de Privacidad</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/inicio/index.php/politica-editorial.html">» Política
+                            Editorial</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/Inicio/index.php/la-universidad/mapa-de-sitio.html">»
+                            Mapa del Sitio</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/Inicio/index.php/servicios-de-informacion/notificaciones-por-aviso.html">»
+                            Notificaciones por Aviso</a></li>
+                </ul>
+            </div>
+
+            <div class="directorio-columna">
+                <h5 class="titulo-rojo-footer">Aplicaciones Web</h5>
+                <ul class="lista-enlaces-verdes">
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/departamentos/direccion-de-admision-registro-y-control-academico/118-inscripciones.html">»
+                            Inscripciones (Pregrado y Posgrado)</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/servicios-de-informacion/noticias-y-eventos/117-academia/7154-liquidacion.html">»
+                            Liquidación</a></li>
+                    <li><a href="https://uniamazonia.janium.net/janium-bin/busqueda_rapida.pl?Id=20250916142206">»
+                            Catálogo en Línea (OPAC)</a></li>
+                    <li><a href="https://chaira.uniamazonia.edu.co/sigepi/Default.aspx">» SIGEPI</a></li>
+                </ul>
+
+                <h5 class="titulo-rojo-footer mt-20">Descubre la Universidad</h5>
+                <ul class="lista-enlaces-verdes">
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/marco-juridico.html">»
+                            Marco Jurídico</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/gestion-institucional/control-y-rendicion-de-cuentas/informe-de-rendicion-de-cuentas.html">»
+                            Rendición de Cuentas</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/documentos/docs/Oficina%20Asesora%20de%20Planeacion/Plan%20de%20Desarrollo%20Institucional/PDI%202020%20-2029.pdf">»
+                            Plan de Desarrollo PDI</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/transparencia.html">»
+                            Transparencia y Acceso a la Información</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/2023-06-13-15-58-39/6-participa.html">»
+                            Participa</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/2023-06-13-15-58-39/grupos-de-interes/portal-para-ninos.html">»
+                            Portal para niños</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/Inicio/index.php/convocatorias/ofertas-de-empleo.html">»
+                            Ofertas de Empleo</a></li>
+                </ul>
+            </div>
+
+            <div class="directorio-columna">
+                <h5 class="titulo-rojo-footer">Información institucional</h5>
+                <ul class="lista-enlaces-verdes">
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/2016-01-13-21-40-16.html">»
+                            Estatuto General</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/2016-01-13-21-34-14.html">»
+                            Estatuto Docente</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/la-universidad/normativa/estatutos/2013-11-01-16-33-57.html">»
+                            Estatuto Estudiantil</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/gestion-institucional/contratacion/estatuto-de-contratacion.html">»
+                            Estatuto de Contratación</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/estatuto-de-biblioteca.html">»
+                            Estatuto de Biblioteca</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/estatuto-del-investigador.html">»
+                            Estatuto del Investigador</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/estatuto-electoral.html">»
+                            Estatuto de Electoral</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/estatuto-presupuestal.html">»
+                            Estatuto de Presupuestal</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/normativa/estatutos/estatuto-de-posgrados.html">»
+                            Estatuto de Posgrados</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Superior/Acuerdos/2023/Acuerdo%20085%20-%20Actualizacion%20Politica%20Modelo%20de%20Bienestar%20Universitario.pdf">»
+                            Políticas de Bienestar Universitario</a></li>
+                </ul>
+            </div>
+
+            <div class="directorio-columna">
+                <h5 class="titulo-rojo-footer">Servicios</h5>
+                <ul class="lista-enlaces-verdes">
+                    <li><a href="https://uniamazonia.gestionjuridica.com/au/cjv">» Consultorio Jurídico y Centro de
+                            Conciliación Virtual</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/departamentos/direccion-biblioteca-e-informacion-cientifica/190-direccion-biblioteca-e-informacion-cientifica.html">»
+                            Biblioteca</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/inicio/index.php/es/investigacion/editorial.html">»
+                            Editorial Uniamazonia</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/investigacion/unidades-de-apoyo-a-la-investigacion/69-consultorio-contable-tributario.html">»
+                            Consultorio Contable Tributario</a></li>
+                    <li><a href="https://www.uniamazonia.edu.co/inicio/index.php/es/presentacion-sobre-el-naf.html">»
+                            Núcleos de Apoyo Contable y Fiscal (NAF)</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/vicerrectorias/vicerrectoria-de-investigaciones-e-innovacion/87-u-de-apoyo/consultorio-juridico.html">»
+                            Consultorio Jurídico</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/vicerrectorias/vicerrectoria-de-investigaciones-e-innovacion/86-u-de-apoyo/centro-de-conciliacion/171-centro-de-conciliacion.html">»
+                            Centro de Conciliación</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/otras-dependencias/centro-de-idiomas.html">»
+                            Centro de Idiomas</a></li>
+                    <li><a
+                            href="https://www.uniamazonia.edu.co/inicio/index.php/es/la-universidad/dependencias/otras-dependencias/unidad-de-emprendimiento.html">»
+                            Unidad de Emprendimiento</a></li>
+                    <li><a href="https://chaira.uniamazonia.edu.co/GestionProveedores/Vistas/Privado/Inicio.aspx">»
+                            Proveedores</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
